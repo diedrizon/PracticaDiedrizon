@@ -3,21 +3,46 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>Restaurante</title>
+    <title>Satanicus</title>
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/css/materialize.css" type="text/css" rel="stylesheet" media="screen, projection"/>
     <link href="css/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+    <style>
+        body {
+            color: white;
+            background-color: black; 
+        }
+        nav, footer.page-footer {
+            background-color: #ff0000; 
+        }
+        .nav-wrapper a, .nav-wrapper ul li a, footer.page-footer a {
+            color: white; 
+        }
+        h1, h2, h5, p, .header, .light {
+            color: white; 
+        }
+        #download-button {
+            background-color: #ffffff; 
+            color: #ff0000; 
+        }
+        .icon-block i.material-icons {
+            color: #ff0000; 
+        }
+    </style>
 </head>
 <body>
-    <nav class="light-blue lighten-1" role="navigation">
+    <nav role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">Logo</a>
+            <a id="logo-container" href="#" class="brand-logo">Pentagrama</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Enlace</a></li>
+                <li><a href="#">Rituales</a></li>
+                <li><a href="#">Hechizos</a></li>
+                <li><a href="#">Conjuros</a></li>
             </ul>
             <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Enlace</a></li>
+                <li><a href="#">Invocaciones</a></li>
+                <li><a href="#">Pactos</a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
@@ -26,12 +51,14 @@
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
             <br><br>
-            <h1 class="header center orange-text">Restaurante</h1>
+            <h1 class="header center">Satanicus</h1>
             <div class="row center">
-                <h5 class="header col s12 light">¡Experimenta la autenticidad en cada bocado, una experiencia culinaria incomparable!</h5>
+                <h5 class="header col s12 light">Descubre los secretos más oscuros y sumérgete en el arte de lo oculto.</h5>
             </div>
             <div class="row center">
-                <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Empezar</a>
+                <div class="row center">
+                    <a href="https://iglesiadesatan.com/" id="download-button" class="btn-large waves-effect waves-light">Explorar</a>
+                </div>
             </div>
             <br><br>
         </div>
@@ -43,23 +70,23 @@
             <div class="row">
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">restaurant_menu</i></h2>
-                        <h5 class="center">Menú Exclusivo</h5>
-                        <p class="light">Explora nuestro menú exclusivo diseñado con los mejores ingredientes frescos y recetas tradicionales que deleitarán tu paladar. Cada plato está cuidadosamente elaborado para ofrecerte una experiencia culinaria inolvidable.</p>
+                        <h2 class="center"><i class="material-icons">book</i></h2>
+                        <h5 class="center">Grimorios y Textos Arcanos</h5>
+                        <p class="light">Explora una cuidadosa selección de textos llenos de conocimientos antiguos y rituales poderosos para aquellos que se atreven a desvelar los misterios del universo.</p>
                     </div>
                 </div>
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">local_dining</i></h2>
-                        <h5 class="center">Ambiente Acogedor</h5>
-                        <p class="light">Disfruta de un ambiente cálido y acogedor donde la atención al detalle y el servicio excepcional se unen para crear un momento perfecto. Ya sea una cena intima o una reunión con amigos, nuestro restaurante es el lugar ideal para disfrutar de buenos momentos.</p>
+                        <h2 class="center"><i class="material-icons">brightness_3</i></h2>
+                        <h5 class="center">Ambiente Místico</h5>
+                        <p class="light">Sumérgete en un mundo donde lo espiritual y lo terrenal se encuentran, creando un espacio perfecto para el estudio y la práctica de las artes oscuras.</p>
                     </div>
                 </div>
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center light-blue-text"><i class="material-icons">local_bar</i></h2>
-                        <h5 class="center">Cócteles Creativos</h5>
-                        <p class="light">Sumérgete en una experiencia sensorial única con nuestra selección de cócteles artesanales y bebidas refrescantes. Nuestros mixólogos expertos han creado combinaciones innovadoras que complementarán perfectamente tu experiencia gastronómica.</p>
+                        <h2 class="center"><i class="material-icons">local_bar</i></h2>
+                        <h5 class="center">Pociones y Elixires</h5>
+                        <p class="light">Descubre nuestra selección de pociones creadas por alquimistas expertos, cada una con propiedades únicas destinadas a amplificar tus habilidades mágicas.</p>
                     </div>
                 </div>
             </div>
@@ -67,36 +94,27 @@
         <br><br>
     </div>
 
-<footer class="page-footer orange">
+<footer class="page-footer">
         <div class="container">
             <div class="row">
-                <div class="col s12 m6">
+                <div class="col s12">
                     <h5 class="white-text">Sobre Nosotros</h5>
-                    <p class="grey-text text-lighten-4">En nuestro restaurante, nos apasiona la cocina de calidad y brindar experiencias gastronómicas memorables a nuestros clientes. Nuestro equipo de chefs expertos se esfuerza por ofrecer platos deliciosos y auténticos que reflejen nuestra dedicación a la excelencia culinaria.</p>
+                    <p class="grey-text text-lighten-4">Somos un colectivo dedicado a la exploración y práctica de las artes ocultas. Nuestra pasión es compartir conocimiento y abrir puertas a otras dimensiones.</p>
                 </div>
-                <div class="col s12 m3">
-                    <h5 class="white-text">Menú</h5>
+                <div class="col s12">
+                    <h5 class="white-text">Explora</h5>
                     <ul>
-                        <li><a class="white-text" href="#!">Desayuno</a></li>
-                        <li><a class="white-text" href="#!">Almuerzo</a></li>
-                        <li><a class="white-text" href="#!">Cena</a></li>
-                        <li><a class="white-text" href="#!">Bebidas</a></li>
-                    </ul>
-                </div>
-                <div class="col s12 m3">
-                    <h5 class="white-text">Contacto</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Dirección</a></li>
-                        <li><a class="white-text" href="#!">Teléfono</a></li>
-                        <li><a class="white-text" href="#!">Correo electrónico</a></li>
-                        <li><a class="white-text" href="#!">Reservaciones en línea</a></li>
+                        <li><a class="white-text" href="#!">Rituales</a></li>
+                        <li><a class="white-text" href="#!">Grimorios</a></li>
+                        <li><a class="white-text" href="#!">Pociones</a></li>
+                        <li><a class="white-text" href="#!">Consultas Astrales</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
-                Diseñado por <a class="orange-text text-lighten-3" href="#">Diedrizon Fargas @Alias mata abuela</a>
+                Diseñado por <a class="purple-text text-lighten-3" href="#">Diedrizon mas conocido por el ateo</a>
             </div>
         </div>
     </footer>
